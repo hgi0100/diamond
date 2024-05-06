@@ -1,3 +1,7 @@
+// scurve
+// Neil Crago
+// 02/05/24
+
 /*
 Code to build a simple function in Rust to represent:-
 
