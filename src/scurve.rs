@@ -44,7 +44,7 @@ pub mod scurves {
             let a = s_curve(q, 1.0, 0.0);
 
             // Back-loaded S-curve (more emphasis at the end)
-            let b = s_curve(q, 0.0, 1.0);
+            let b = s_curve(q, 0.0, 1.0); // 0.0, 1.0
 
             // Front-loaded S-curve (more emphasis at the beginning)
             let c = s_curve(q, 2.0, -1.0);
