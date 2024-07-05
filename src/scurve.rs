@@ -3,7 +3,7 @@
 // 02/05/24
 
 /*
-Code to build a simple function in Rust to represent:-
+A Rust module to represent:-
 
 A.) a basic S-curve and variations for
 B.) front and
@@ -23,8 +23,6 @@ Explanation:
    - Loops through time values from 0.0 to `i` with increments.
    - Calculates the S-curve value for each time step using different combinations of `a` and `b`.
    - Prints the corresponding time (`t`) and S-curve value (`y`).
-
-Adjust the function and parameters to achieve different S-curve shapes.
 */
 
 pub mod scurves {
@@ -40,7 +38,7 @@ pub mod scurves {
             let s = *i as f64;
             let q = t as f64 / s;
 
-            // Example S-curve
+            // Normal S-curve
             let a = s_curve(q, 1.0, 0.0);
 
             // Back-loaded S-curve (more emphasis at the end)
