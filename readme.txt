@@ -1,4 +1,9 @@
-Quick code to generate:- 
+Diamond (after Neil Diamond)
+Author: Neil Crago
+Date: 20/02/2024
+
+Description:
+A Program to generate:- 
  
 1.) an S-curve
 2.) a front-loaded curve
